@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 import eventmanager.events.IEvent;
 
+/**
+ * @author Patrick Lebold
+ * This class is a template for all processors.
+ */
 public abstract class AProcessor implements IProcessor {
 	
 	protected ArrayList<IEvent> events;

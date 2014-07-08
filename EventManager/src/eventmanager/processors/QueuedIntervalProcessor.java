@@ -2,6 +2,12 @@ package eventmanager.processors;
 
 import eventmanager.events.IEvent;
 
+/**
+ * @author Patrick Lebold
+ * This class is a brand of IProcessor that processes events in interval-style.
+ * See class-AIntervalProcessor for info on interval-style.
+ * Queue-based processors only process the first event in the queue.
+ */
 public class QueuedIntervalProcessor extends AIntervalProcessor {
 
 	public void processEvents() {

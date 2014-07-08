@@ -2,6 +2,11 @@ package eventmanager.events;
 
 import java.util.ArrayList;
 
+/**
+ * @author Patrick Lebold
+ * This class is a container that allows multiple events to be bundled under one ID, even if the child events
+ * contain different IDs.
+ */
 public class CompoundEvent extends AEvent {
 
 	private ArrayList<IEvent> events;

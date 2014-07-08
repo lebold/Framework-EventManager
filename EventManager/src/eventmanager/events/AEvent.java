@@ -1,5 +1,9 @@
 package eventmanager.events;
 
+/**
+ * @author Patrick Lebold
+ * This class is a template of all events that can be processed.
+ */
 public abstract class AEvent implements IEvent{
 
 	private Object id;

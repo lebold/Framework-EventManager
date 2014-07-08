@@ -4,6 +4,12 @@ import java.util.HashMap;
 
 import eventmanager.events.IEvent;
 
+/**
+ * @author Patrick Lebold
+ * This class is a template of all processors that handle events based on event-intervals.
+ * When registering an event with an interval-processor, you must also indicate how many intervals you wish for
+ * the event to be processed.
+ */
 public abstract class AIntervalProcessor extends AProcessor {
 
 	protected HashMap<Object,Integer> intervalMap;
